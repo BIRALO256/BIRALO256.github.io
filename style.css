@@ -9,3 +9,46 @@ body {
     padding-top: 60px; /* Adjust the value based on your navbar height */
 }
 
+/* Add this to your existing style.css or in the head section of your HTML */
+.contact-link {
+    color: #007bff; /* Link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-link:hover {
+    color: #0056b3; /* Hover color */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #343a40; /* Text color */
+  }
+
+  .navbar {
+    padding: 1rem; /* Add padding to navbar items */
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Navbar link color */
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Navbar link color on hover */
+  }
+
+  section {
+    padding: 3rem 0; /* Add padding to sections */
+  }
+
+  footer {
+    background-color: #343a40; /* Dark background color for footer */
+    color: #ffffff; /* Text color for footer */
+    padding: 1rem;
+  }
+
+ 
+
+  .contact-link:hover {
+    color: #0056b3; /* Contact link color on hover */
+  }
