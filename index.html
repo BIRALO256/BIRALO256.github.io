@@ -9,7 +9,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-md bg-dark  ">
+    <nav class="navbar navbar-expand-md bg-dark fixed-top  ">
         <div class="container">
           <a class="navbar-brand px-2 fw-bold" href="#">
             <img src="assets/jovic1.jpg" alt="" width="100" height="100%" class="d-inline-block align-text-top">
@@ -25,15 +25,23 @@
               </li>
 
               <li class="nav-item px-2">
+                <a class="nav-link text-light " href="#aboutMe">About Me</a>
+              </li>
+
+              <li class="nav-item px-2">
                 <a class="nav-link text-light" href="#workExpericence">Experience</a>
               </li>
 
               <li class="nav-item px-2">
-                <a class="nav-link text-light " href="#">About Me</a>
+                <a class="nav-link text-light" href="#projects">Projects</a>
+              </li>
+
+              <li class="nav-item px-2">
+                <a class="nav-link text-light " href="#hobbies">Hobbies</a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link px-2 text-light  " href="#">Contact Me</a>
+                <a class="nav-link px-2 text-light  " href="#contactMe">Contact Me</a>
               </li>
              
             </ul>
@@ -43,11 +51,15 @@
       </nav>
       
 
-      <div class="container  text-center justify-content-center align-items-center mt-2 ">
-  
-        <h1 class="fw-bold"> JOVIC BIRALO</h1>
-        <p class="lead ">Enjoys Web and Mobile Development</p>
-       </div>
+          <!-- About Me -->
+    <section id="aboutMe" class="text-center text-dark p-5 text-sm-start">
+      <div class="container align-items-center justify-content-center mt-2">
+          <h3 class="fw-bold text-center">About Me</h3>
+          <p class="lead">
+              Hey there! I'm Jovic Biralo Muwanguzi, a passionate software engineering student with a love for both web and mobile development. I specialize in creating seamless and user-friendly digital experiences. While my focus is on coding, I also have skills in video editing using Adobe Premiere. Join me on this journey of creativity and innovation!
+          </p>
+      </div>
+    </section>
 
        <!--work experience-->
        <section  id="workExpericence" class="  text-center text-dark p-5 text-sm-start">
@@ -67,7 +79,7 @@
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">HTML ,CSS</li>
                   <li class="list-group-item">Boostrap</li>
-                  <li class="list-group-item">Laravel $ livewire</li>
+                  <li class="list-group-item">Laravel &dollar; livewire</li>
                   <li class="list-group-item">MySQL</li>
                 </ul>
               </div>
@@ -151,10 +163,117 @@
        </section>
 <!--Sample projects-->
        <section id="projects">
+        <div class="container mt-2">
+          <h3 class="mb-4 text-center  ">Sample Projects</h3>
+            <div class="row">
+              <div class=" col-md-6 col-lg-3 mt-4">
 
-       </section>
+                <div class="card" >
+                  <img src="assets/sample1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Emarkert</h5>
+                    <p class="card-text"> This is an online platform that serves as a marketplace where buyers, vendors (sellers), and administrators come together. Vendors can register their companies on the platform, and customers can purchase products from various registered companies online. It operates as a digital marketplace similar to platforms like Jumia.</p>
+                    <a href="https://github.com/BIRALO256/New-version-of-emarkert-project" target="_blank" class="btn btn-primary">Source code</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class=" col-md-6 col-lg-3 mt-4">
+
+                <div class="card" >
+                  <img src="assets/sample2.png" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Website</h5>
+                    <p class="card-text"> This is one of the simple websites I've created, but this particular one primarily showcases my website design skills, mostly with the help of Bootstrap</p>
+                    <a href="https://github.com/BIRALO256/boostrap-with-hostinger" target="_blank" class="btn btn-primary">Source code</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-6 col-lg-3 mt-4">
+                <div class="card">
+                    <img src="assets/sample4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">WordPress Project (Ongoing)</h5>
+                        <p class="card-text">
+                            Currently working on a WordPress project, building a simple shop management app. Excited to explore new possibilities and enhance my skills in WordPress development. Stay tuned for updates!
+                        </p>
+                        <a href="https://github.com/BIRALO256/Shop" target="_blank" class="btn btn-primary inactive">Source code</a>
+
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-md-6 col-lg-3 mt-4">
+              <div class="card">
+                  <img src="assets/sample3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Flutter Shop App (Ongoing)</h5>
+                      <p class="card-text">
+                          Currently, I'm immersed in the world of Flutter, working on a simple shop management app. This project is not just about building an app; it's an exploration of Flutter's state management concepts and best practices. Stay tuned for more updates and improvements!
+                      </p>
+                      <a href="https://github.com/BIRALO256/Shop" target="_blank" class="btn btn-primary">Source code</a>
+                  </div>
+              </div>
+          </div>
+      
+            </div>
+        </div>
+        </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="text-center text-dark p-3 text-sm-start">
+      <div class="container align-items-center justify-content-center mt-2">
+          <h3 class="fw-bold text-center">Hobbies</h3>
+          <p class="lead">
+              When I'm not immersed in coding or building digital experiences, you can find me indulging in a variety of hobbies, such as:
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Listening to music, especially reggae</li>
+                  <li class="list-group-item">Playing video games like FIFA</li>
+                  <li class="list-group-item">Watching movies, mostly series</li>
+                  <li class="list-group-item">Playing football and chess</li>
+                  <li class="list-group-item">Enjoying a game of pool table</li>
+                  <li class="list-group-item">And finally, supporting Arsenal &plus; Bayern Munich &#x1F604;</li>
+              </ul>
+          </p>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contactMe" class="text-center text-dark p-3 text-sm-start">
+      <div class="container align-items-center justify-content-center mt-2">
+          <h3 class="fw-bold">Contact Me</h3>
+          <p class="lead">
+              Feel free to reach out to me at:
+          </p>
+              
+              Email:
+              <a href="mailto:dearjovic@gmail.com" class="text-decoration-none">dearjovic@gmail.com</a>
+              <br>
+              WhatsApp &plus; Phone: <a href="https://wa.me/25676546326" class="text-decoration-none">+25676546326 </a>
+              <br>
+              Phone: <a href="tel:+25655843627" class="text-decoration-none">+25655843627</a>
+          
+      </div>
+    </section>
+    
 
 
+
+
+
+    <footer class="bg-dark py-3 mt-3">
+
+      <div class="container text-light text-center ">
+        <p class="display-5 mb-2">JOVICBIRALO</p>
+        <small class="text-white-50">&copy;Copyright by JOVICBIRALO. All rights reserved</small>
+      </div>
+
+    </footer>
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
