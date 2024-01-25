@@ -62,3 +62,35 @@ body {
     object-fit: cover; /* Ensure the video covers the entire container */
     z-index: -2; /* Set a lower z-index to place it behind the content */
 }
+nav ul a {
+  transition-property:color ;
+}
+nav ul a{
+  color: red;
+}
+
+/* .has-submenu ::after{
+  transition-property:opacity;
+} */
+nav ul a {
+  transition-duration:var(--def-transtion-duration);
+  transition-timing-function: ease-in-out;
+}
+
+/* .scroll-watcher{
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: lime;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll;
+}
+@keyframes scroll-watcher{
+  to {
+    scale:1 1;
+  }
+} */
