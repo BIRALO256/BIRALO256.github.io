@@ -94,3 +94,11 @@ nav ul a {
     scale:1 1;
   }
 } */
+.navbar-nav a {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.navbar-nav a:hover {
+  opacity: 0.5;
+}
